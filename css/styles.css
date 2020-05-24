@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+
+    font-size: 1em;
+    background-color: #f0f0f0;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    font-weight: 600;
+
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    padding: 0;
+
+}
+
+ul li a {
+    display: block;
+    margin-left: -2px;
+    text-decoration: none;
+    border: 2px solid rgb(85, 85, 85);
+    height: 60px;
+    width: 60px;
+    color: #2980b9;
+    line-height: 60px;
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    background: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+
+ul li a:hover {
+    width: 180px;
+    color: #fff;
+
+}
+
+ul li a:hover {
+    width: 180px;
+    color: #fff;
+
+}
+
+ul li a:hover span {
+    left: 0;
+}
+
+ul li a span {
+    padding: 0 30px 0 15px;
+    position: absolute;
+    left: -120px;
+    transition: left 0.4s ease;
+    -webkit-transition: left 0.4s ease;
+    -moz-transition: left 0.4s ease;
+    -ms-transition: left 0.4s ease;
+    -o-transition: left 0.4s ease;
+}
+
+ul li a i {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+
+}
+
+ul li .spotify {
+    background: rgba(39, 174, 96, .1);
+    border-color: #27ae60;
+    color: #27ae60;
+}
+
+ul li .spotify:hover {
+    background: rgba(39, 174, 96, 1);
+}
+
+ul li .skype {
+    background: rgba(34, 167, 240, .1);
+    border-color: #22a7f0;
+    color: #22a7f0;
+}
+
+ul li .skype:hover {
+    background: #22a7f0;
+}
+
+ul li .facebook {
+    background: rgba(59, 89, 152, .1);
+    border-color: #4865a5;
+    color: #3b5998;
+}
+
+ul li .facebook:hover {
+    background: #3b5998;
+}
+
+ul li .twitter {
+    background: rgba(0, 172, 238, .1);
+    border-color: #00acee;
+    color: #00acee;
+}
+
+ul li .twitter:hover {
+    background: #00acee;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.content h2 {
+    font-size: 2.4em;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 600px)
+{
+    .content h2 {
+        font-size: 1.4em;
+    }
+}
